@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    background-color: #000;
+    background-image: url(grey-wood-pane.png);
+}
+
+.app{
+    display: flex;
+    justify-content: space-between ;
+    background-color: #4c9cef;
+    color:white;
+} 
+.krug{
+    border-radius: 20%;
+}
+.prof{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    column-gap: 20px;
+    font-size: 45px;
+}
+.menu{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around ;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:white;
+}
+
+.menu > a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+.centr{
+    text-align: center; 
+}
+
+.menu > a:hover{
+    color: red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table tr > td{
+    padding: 11px 13px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.table > tbody > tr> td{
+    padding: 15px;
+    border: 3px solid #e4e4e4
+}
+.backgroundwhite{
+    background-color: #ffffff;
+    color: #888888;
+}
+.backgroundblue{
+    background-color: #4c9cef;
+    color: #ffffff;
+}
+.profilfoto {
+
+    width: 70%;
+    height: 70%;
+}
+.flex{
+    display: flex;
+}
+.experience{
+    margin-left: 70px;
+    padding: 10px 0px;
+    width: 100%;
+}
+.experience-item{
+    position: relative;
+    margin: 40px 0px;
+}
+.experience-circle{
+    width: 130px;
+    height: 100px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+    border-radius: 100%;
+    position: absolute;
+    left: -60px;
+    color: #ffffff;
+    background: #4c9cef;
+    padding-top: 25px;
+    box-shadow: -5px 6px 4px 0px rgb(90 91 95 / 30%);
+}
+
+.experience-content{
+    margin-left: 75px;
+    font-size: 20px;
+}
+.experience-color-blue{
+    border: 2px solid #4c9cef
+        !important;
+
+}
+.experience-content{
+    margin-left: 80px;
+    margin-right: 100px;
+    position: relative;
+    background: #ffffff;
+    border: 2px solid #f7639a;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+.pink-color-bg{
+    background-color: #f7639a;
+}
+footer{
+    position:fixed;  /* Фиксированное положение */
+    margin-top:100%;    
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background-image: url(/image/bg/call-to-action.png); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+} 
+.footer{
+
+    padding: 10px; /* Поля вокруг текста */
+    background-image: url(/image/bg/call-to-action.png); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+} 
+.icons
+{
+    text-align:right;
+    display: flex;
+    justify-content: right ;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+} 
+.size{
+    font-size: 25px;
+}
+.formaa{
+    background-image: url(/image/bg/bg-form.jpg);
+    padding:10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 5px solid #ff0000;
+}
+.formaa > h2,td{
+    color: white;
+}

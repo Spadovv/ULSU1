@@ -1,0 +1,51 @@
+.textbox{
+    border-radius: 30%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-image: url(/image/bg/subscribe-pattern.png);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border: 3px solid #00b2d1;
+}
+.center{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#link_register a {
+    background: darkcyan;
+    margin-left: -15%;
+}
+#link_auth a  {
+    background: #f7639a;
+    text-align: center;
+}
+
+#auth_block a {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    
+}
+#auth_block {
+    padding-top: 20px;
+    display:flex;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+#auth_block a {
+    border: 3px solid #810081; /* Рамка вокруг изображения-ссылки */
+   }         
+#auth_block a:hover {
+    border: 3px solid #ff0000; /* Рамка при наведении на ссылку курсора мыши */
+}
